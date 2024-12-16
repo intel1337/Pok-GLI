@@ -52,13 +52,12 @@ _,-'       `.     |    |  /`.   \,-'    |   \  /   |   |    \  |`.
                  / ,"'"\,'               `/  `-.|" mh
 =====================================================================
 ===========================================
-           WELCOME TO BATTLE QUEST!
-===========================================
+           Welcome to Legends Unbound !
 Choose an option:
-1. ⚔️  Start New Game
-2. 🛡️  Load Game
-3. 📜  View High Scores
-4. 🏰  About the Game
-5. ❌  Exit
+1. ⚔️  Create Account
+2. 🛡️  Login
+3. 📜  Ranked / Blind Queue
+4. 🏰  Your Team
+0. ❌  Exit
 ===========================================
-Select an option by typing the corresponding number:
+Your Choice :

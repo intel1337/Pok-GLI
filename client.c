@@ -13,36 +13,29 @@
 #define CLIENT_PORT 4001
 
 int main(){
-    
-    
-
-    system("clear");
-    loadperc(20);
-    loadmenu();
-    etc();
-    system("clear");
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    while(1){
+        char input[BUFSIZ];
+        system("clear");
+        loadperc(20);
+        etc();
+        system("clear");
+        loadmenu();
+        fgets(input, BUFSIZ, stdin);
+        input[strcspn(input, "\n")] = 0;
+        system("clear");
+        if (strcspn(input, "exit") == 0)
+        {
+            exit(0);
+        }
+        else
+        {
+            printf("bad command\n");
+            etc();
+        }
+        
+    return 0;
+    }
+        
 
 
 
@@ -75,3 +68,5 @@ int main(){
     // return 0;
 
 }
+
+

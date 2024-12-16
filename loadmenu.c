@@ -1,3 +1,4 @@
+// Source : GeeksforGeeks
 // C program to read a file using fgetc()
 #include <stdio.h>
 #include <stdlib.h>
