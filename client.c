@@ -23,9 +23,31 @@ int main(){
         fgets(input, BUFSIZ, stdin);
         input[strcspn(input, "\n")] = 0;
         system("clear");
-        if (strcspn(input, "exit") == 0)
+        if (strcspn(input, "0") == 0)
         {
             exit(0);
+        }
+        else if (strcspn(input, "1") == 0)
+        {
+            printf("Create a new account ? Y/n \n");
+            fgets(input, BUFSIZ, stdin);
+            input[strcspn(input, "\n")] = 0;
+            if (strcspn(input, "Y") == 0)
+            {
+                system("clear");
+                printf("Username : ");
+                char username[BUFSIZ];
+                fgets(username, BUFSIZ, stdin);
+                username[strcspn(username, "\n")] = 0;
+                system("clear");
+                printf("Password : ");
+                char password[BUFSIZ];
+                fgets(password, BUFSIZ, stdin);
+                password[strcspn(password, "\n")] = 0;
+                // WRITE PASS AND USER TO A FILE
+                // REMEMBER TO SEND TO THE ACCOUNT CREATE SERVICE
+
+
         }
         else
         {
